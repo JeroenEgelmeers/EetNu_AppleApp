@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE8E9EE11ADBDF9F007FC9CE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8E9EE01ADBDF9F007FC9CE /* SettingsViewController.swift */; };
+		CEA6745B1AD1731B0077E2AB /* food-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA674591AD1731B0077E2AB /* food-grey.png */; };
+		CEA6745C1AD1731B0077E2AB /* wranch-grey.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6745A1AD1731B0077E2AB /* wranch-grey.png */; };
+		CEA6745E1AD176910077E2AB /* restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6745D1AD176910077E2AB /* restaurant.png */; };
+		CEA674601AD176D30077E2AB /* services.png in Resources */ = {isa = PBXBuildFile; fileRef = CEA6745F1AD176D30077E2AB /* services.png */; };
+		CEDD073F1ADB2FB500DB5935 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD073E1ADB2FB500DB5935 /* DetailViewController.swift */; };
 		CEDF7E411AD06C890006E597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF7E401AD06C890006E597 /* AppDelegate.swift */; };
 		CEDF7E431AD06C890006E597 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF7E421AD06C890006E597 /* FirstViewController.swift */; };
 		CEDF7E451AD06C890006E597 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF7E441AD06C890006E597 /* SecondViewController.swift */; };
@@ -14,6 +20,10 @@
 		CEDF7E4A1AD06C890006E597 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDF7E491AD06C890006E597 /* Images.xcassets */; };
 		CEDF7E4D1AD06C890006E597 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDF7E4B1AD06C890006E597 /* LaunchScreen.xib */; };
 		CEDF7E591AD06C8A0006E597 /* eindOpdrachtMBD2_hmwegelmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF7E581AD06C8A0006E597 /* eindOpdrachtMBD2_hmwegelmTests.swift */; };
+		CEDF7E631AD06E450006E597 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF7E621AD06E450006E597 /* CategoryViewController.swift */; };
+		CEDF7E691AD06ED50006E597 /* sampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF7E681AD06ED50006E597 /* sampleData.swift */; };
+		CEDF7E6D1AD074250006E597 /* RestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF7E6C1AD074250006E597 /* RestaurantsViewController.swift */; };
+		CEDF7E6F1AD074820006E597 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDF7E6E1AD074820006E597 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE8E9EE01ADBDF9F007FC9CE /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		CEA674591AD1731B0077E2AB /* food-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food-grey.png"; sourceTree = "<group>"; };
+		CEA6745A1AD1731B0077E2AB /* wranch-grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wranch-grey.png"; sourceTree = "<group>"; };
+		CEA6745D1AD176910077E2AB /* restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = restaurant.png; sourceTree = "<group>"; };
+		CEA6745F1AD176D30077E2AB /* services.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = services.png; sourceTree = "<group>"; };
+		CEDD073E1ADB2FB500DB5935 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		CEDF7E3B1AD06C890006E597 /* eindOpdrachtMBD2_hmwegelm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eindOpdrachtMBD2_hmwegelm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDF7E3F1AD06C890006E597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDF7E401AD06C890006E597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +54,10 @@
 		CEDF7E521AD06C8A0006E597 /* eindOpdrachtMBD2_hmwegelmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eindOpdrachtMBD2_hmwegelmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDF7E571AD06C8A0006E597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDF7E581AD06C8A0006E597 /* eindOpdrachtMBD2_hmwegelmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eindOpdrachtMBD2_hmwegelmTests.swift; sourceTree = "<group>"; };
+		CEDF7E621AD06E450006E597 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		CEDF7E681AD06ED50006E597 /* sampleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sampleData.swift; sourceTree = "<group>"; };
+		CEDF7E6C1AD074250006E597 /* RestaurantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantsViewController.swift; sourceTree = "<group>"; };
+		CEDF7E6E1AD074820006E597 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +78,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CEA674581AD1731B0077E2AB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEA6745F1AD176D30077E2AB /* services.png */,
+				CEA6745D1AD176910077E2AB /* restaurant.png */,
+				CEA674591AD1731B0077E2AB /* food-grey.png */,
+				CEA6745A1AD1731B0077E2AB /* wranch-grey.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		CEDF7E321AD06C890006E597 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +110,16 @@
 		CEDF7E3D1AD06C890006E597 /* eindOpdrachtMBD2_hmwegelm */ = {
 			isa = PBXGroup;
 			children = (
-				CEDF7E401AD06C890006E597 /* AppDelegate.swift */,
-				CEDF7E421AD06C890006E597 /* FirstViewController.swift */,
-				CEDF7E441AD06C890006E597 /* SecondViewController.swift */,
+				CEA674581AD1731B0077E2AB /* Images */,
 				CEDF7E461AD06C890006E597 /* Main.storyboard */,
 				CEDF7E491AD06C890006E597 /* Images.xcassets */,
-				CEDF7E4B1AD06C890006E597 /* LaunchScreen.xib */,
 				CEDF7E3E1AD06C890006E597 /* Supporting Files */,
+				CEDF7E621AD06E450006E597 /* CategoryViewController.swift */,
+				CEDF7E681AD06ED50006E597 /* sampleData.swift */,
+				CEDF7E6C1AD074250006E597 /* RestaurantsViewController.swift */,
+				CEDF7E6E1AD074820006E597 /* Restaurant.swift */,
+				CEDD073E1ADB2FB500DB5935 /* DetailViewController.swift */,
+				CE8E9EE01ADBDF9F007FC9CE /* SettingsViewController.swift */,
 			);
 			path = eindOpdrachtMBD2_hmwegelm;
 			sourceTree = "<group>";
@@ -93,6 +127,10 @@
 		CEDF7E3E1AD06C890006E597 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CEDF7E4B1AD06C890006E597 /* LaunchScreen.xib */,
+				CEDF7E401AD06C890006E597 /* AppDelegate.swift */,
+				CEDF7E441AD06C890006E597 /* SecondViewController.swift */,
+				CEDF7E421AD06C890006E597 /* FirstViewController.swift */,
 				CEDF7E3F1AD06C890006E597 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,9 +233,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEA6745C1AD1731B0077E2AB /* wranch-grey.png in Resources */,
+				CEA6745B1AD1731B0077E2AB /* food-grey.png in Resources */,
 				CEDF7E481AD06C890006E597 /* Main.storyboard in Resources */,
 				CEDF7E4D1AD06C890006E597 /* LaunchScreen.xib in Resources */,
+				CEA6745E1AD176910077E2AB /* restaurant.png in Resources */,
 				CEDF7E4A1AD06C890006E597 /* Images.xcassets in Resources */,
+				CEA674601AD176D30077E2AB /* services.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,9 +257,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDD073F1ADB2FB500DB5935 /* DetailViewController.swift in Sources */,
+				CEDF7E6D1AD074250006E597 /* RestaurantsViewController.swift in Sources */,
+				CEDF7E631AD06E450006E597 /* CategoryViewController.swift in Sources */,
 				CEDF7E451AD06C890006E597 /* SecondViewController.swift in Sources */,
+				CEDF7E6F1AD074820006E597 /* Restaurant.swift in Sources */,
+				CEDF7E691AD06ED50006E597 /* sampleData.swift in Sources */,
 				CEDF7E411AD06C890006E597 /* AppDelegate.swift in Sources */,
 				CEDF7E431AD06C890006E597 /* FirstViewController.swift in Sources */,
+				CE8E9EE11ADBDF9F007FC9CE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +459,7 @@
 				CEDF7E5E1AD06C8A0006E597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CEDF7E5F1AD06C8A0006E597 /* Build configuration list for PBXNativeTarget "eindOpdrachtMBD2_hmwegelmTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +468,7 @@
 				CEDF7E611AD06C8A0006E597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
