@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "eindOpdrachtMBD2_hmwegelm/RestaurantsViewController.swift"
+            timestampString = "450622872.264828"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "eindOpdrachtMBD2_hmwegelm/DetailViewController.swift"
+            timestampString = "450613133.502798"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "DetailViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "eindOpdrachtMBD2_hmwegelm/DetailViewController.swift"
+            timestampString = "450613133.502798"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "DetailViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eindOpdrachtMBD2_hmwegelm.DetailViewController.detailInfo.setter : Swift.ImplicitlyUnwrappedOptional&lt;eindOpdrachtMBD2_hmwegelm.Restaurant&gt;"
+                  moduleName = "eindOpdrachtMBD2_hmwegelm"
+                  urlString = "file:///Users/user/Documents/eindOpdrachtMBD2_hmwegelm%20copy/eindOpdrachtMBD2_hmwegelm/DetailViewController.swift"
+                  timestampString = "450612229.727846"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "235">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eindOpdrachtMBD2_hmwegelm.DetailViewController.detailInfo.materializeForSet : Swift.ImplicitlyUnwrappedOptional&lt;eindOpdrachtMBD2_hmwegelm.Restaurant&gt;"
+                  moduleName = "eindOpdrachtMBD2_hmwegelm"
+                  urlString = "file:///Users/user/Documents/eindOpdrachtMBD2_hmwegelm%20copy/eindOpdrachtMBD2_hmwegelm/DetailViewController.swift"
+                  timestampString = "450612229.728404"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eindOpdrachtMBD2_hmwegelm.DetailViewController.init (eindOpdrachtMBD2_hmwegelm.DetailViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;ObjectiveC.NSBundle&gt;) -&gt; eindOpdrachtMBD2_hmwegelm.DetailViewController"
+                  moduleName = "eindOpdrachtMBD2_hmwegelm"
+                  urlString = "file:///Users/user/Documents/eindOpdrachtMBD2_hmwegelm%20copy/eindOpdrachtMBD2_hmwegelm/DetailViewController.swift"
+                  timestampString = "450612229.728773"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "383">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eindOpdrachtMBD2_hmwegelm.DetailViewController.init (eindOpdrachtMBD2_hmwegelm.DetailViewController.Type)() -&gt; eindOpdrachtMBD2_hmwegelm.DetailViewController"
+                  moduleName = "eindOpdrachtMBD2_hmwegelm"
+                  urlString = "file:///Users/user/Documents/eindOpdrachtMBD2_hmwegelm%20copy/eindOpdrachtMBD2_hmwegelm/DetailViewController.swift"
+                  timestampString = "450612229.729211"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "293">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "eindOpdrachtMBD2_hmwegelm.DetailViewController.init (eindOpdrachtMBD2_hmwegelm.DetailViewController.Type)(coder : ObjectiveC.NSCoder) -&gt; eindOpdrachtMBD2_hmwegelm.DetailViewController"
+                  moduleName = "eindOpdrachtMBD2_hmwegelm"
+                  urlString = "file:///Users/user/Documents/eindOpdrachtMBD2_hmwegelm%20copy/eindOpdrachtMBD2_hmwegelm/DetailViewController.swift"
+                  timestampString = "450612229.729676"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "310">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "eindOpdrachtMBD2_hmwegelm/RestaurantsViewController.swift"
+            timestampString = "450622872.264828"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "prepareForSegue(_:sender:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "eindOpdrachtMBD2_hmwegelm/SettingsViewController.swift"
+            timestampString = "450621755.92924"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "setSettings(_:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
