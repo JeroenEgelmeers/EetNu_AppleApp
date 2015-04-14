@@ -155,8 +155,8 @@ class RestaurantsViewController: UITableViewController {
         
         if let geolocData: AnyObject = givenId["geolocation"]
         {
-            if let longData: AnyObject = geolocData["longitude"]! { varLong = longData }
-            if let langData: AnyObject = geolocData["latitude"]! { varLong = langData }
+            if let longData: AnyObject = geolocData["longitude"] { varLong = longData }
+            if let langData: AnyObject = geolocData["latitude"] { varLat = langData }
         }
         if let addressData: AnyObject = givenId["address"]
         {
