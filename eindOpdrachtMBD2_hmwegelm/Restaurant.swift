@@ -10,7 +10,6 @@ import Foundation
 
 struct Restaurant {
     var rName: String
-    var rRating: Int
     var rStreet: String
     var rPostcode: String
     var rPlace: String
@@ -18,9 +17,8 @@ struct Restaurant {
     var rLocLong: AnyObject
     var rLocLat: AnyObject
     
-    init(name: String, rating: Int, street: String, postcode: String, place: String, phone: String, long: AnyObject, lat: AnyObject) {
+    init(name: String, street: String, postcode: String, place: String, phone: String, long: AnyObject, lat: AnyObject) {
         self.rName = name
-        self.rRating = rating
         self.rStreet = street
         self.rPostcode = postcode
         self.rPlace = place

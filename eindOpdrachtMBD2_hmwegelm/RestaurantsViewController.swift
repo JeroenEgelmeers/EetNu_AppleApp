@@ -141,8 +141,32 @@ class RestaurantsViewController: UITableViewController {
         let selectedIndex = self.tableView.indexPathForCell(sender as UITableViewCell)
         let index = selectedIndex?.item
         let givenId: AnyObject = self.restaurants[index!]
-        let restaurant = Restaurant(name: givenId["name"] as String, rating: givenId["rating"] as Int, street: givenId["address"]!!["street"]!! as String, postcode: givenId["address"]!!["zipcode"]!! as String, place: givenId["address"]!!["city"]!! as String, phone: givenId["telephone"] as String, long: givenId["geolocation"]!!["longitude"]!! as AnyObject, lat: givenId["geolocation"]!!["latitude"]!! as AnyObject)
         
+        var varName = ""
+        var varStreet = ""
+        var varPostcode = ""
+        var varCity = ""
+        var varPhone = ""
+        var varLat:AnyObject = 0.0
+        var varLong:AnyObject = 0.0
+        
+        if (givenId["name"] != nil) { varName = givenId["name"] as String }
+        if (givenId["telphone"] != nil) { varPhone = givenId["telephone"] as String }
+        
+        if let geolocData: AnyObject = givenId["geolocation"]
+        {
+            if let longData: AnyObject = geolocData["longitude"]! { varLong = longData }
+            if let langData: AnyObject = geolocData["latitude"]! { varLong = langData }
+        }
+        if let addressData: AnyObject = givenId["address"]
+        {
+            if let zipCode: AnyObject = addressData["zipcode"]! { varPostcode = addressData["zipcode"] as String }
+            if let streetData: AnyObject = addressData["street"]! { varStreet = addressData["street"] as String }
+            if let cityData: AnyObject = addressData["city"]! { varCity = addressData["city"] as String }
+        }
+        
+        let restaurant = Restaurant(name: varName, street: varStreet, postcode: varPostcode, place: varCity, phone: varPhone, long: varLong, lat: varLat)
+
         var svc = segue.destinationViewController as DetailViewController
         svc.detailInfo = restaurant
 
